@@ -40,4 +40,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .MuiDrawer-paper {
     width: 240px;
+    z-index: 1000; /* Sidebar'ın diğer içeriklerin üstüne çıkmasını engeller */
+}
+
+.content {
+    margin-left: 240px; /* Sidebar genişliği kadar boşluk bırakır */
+    padding: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
